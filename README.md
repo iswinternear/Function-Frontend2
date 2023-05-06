@@ -1,12 +1,38 @@
-# Starter Next/Hardhat Project
+# Function-Frontend
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+This program is simple program that demonstrates the functions and displays the values in the frontend of the application. This program is
+a partial requirement for the ETH PROOF: Intermediate EVM Course.
 
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
+## Description
 
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+This program is written in JavaScript and CSS. The program has four functions:
+
+connectWalletHandler - For connecting the metamask wallet 
+
+AccoutChangedHandler - Chainging account from metamask can cause this function to work 
+
+chainChangedHandler - Chainging the chain network in the metamask can cause this function to work 
+
+getAccountBalance - Get the Balance of the token/coin in your metamask wallet.
+
+## Getting Started
+
+### Executing program
+
+To run this program, I recommend using Gitpod. To open, click the link here: https://gitpod.io/.
+
+Click "New Workspace" button and paste this link: https://github.com/iswinternear/Function-Frontend.git
+
+Create a terminal and type these commands
+
+npm install
+
+npm start
+
+This will redirect you to a new tab with the localhost:3000.
+
+Click the "Connect Wallet" button to connect your Metamask wallet to the app. After successfully connecting your wallet to the app, it will display your address and the balance inside your wallet. 
+
+## Authors
+
+Jhon Louise Tan
