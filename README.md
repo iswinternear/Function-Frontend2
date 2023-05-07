@@ -1,11 +1,11 @@
 # Function-Frontend
 
 This program is simple program that demonstrates the functions and displays the values in the frontend of the application. This program is
-a partial requirement for the ETH PROOF: Intermediate EVM Course.
+a partial requirement for the ETH + AVAX PROOF: Intermediate EVM Course.
 
 ## Description
 
-This program is written in JavaScript and CSS. The program has three main functions:
+This program is written in JavaScript and Solidity. The program has three main functions:
 
 connectAccount - which connects the user's metamask wallet
 
