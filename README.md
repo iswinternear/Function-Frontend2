@@ -5,15 +5,13 @@ a partial requirement for the ETH PROOF: Intermediate EVM Course.
 
 ## Description
 
-This program is written in JavaScript and CSS. The program has four functions:
+This program is written in JavaScript and CSS. The program has three main functions:
 
-connectWalletHandler - For connecting the metamask wallet 
+connectAccount - which connects the user's metamask wallet
 
-AccoutChangedHandler - Chainging account from metamask can cause this function to work 
+deposit - which deposits 1 ETH 
 
-chainChangedHandler - Chainging the chain network in the metamask can cause this function to work 
-
-getAccountBalance - Get the Balance of the token/coin in your metamask wallet.
+withdraw - which withdraws 1 ETH
 
 ## Getting Started
 
@@ -21,17 +19,19 @@ getAccountBalance - Get the Balance of the token/coin in your metamask wallet.
 
 To run this program, I recommend using Gitpod. To open, click the link here: https://gitpod.io/.
 
-Click "New Workspace" button and paste this link: https://github.com/iswinternear/Function-Frontend.git
+Click "New Workspace" button and paste this link: https://github.com/iswinternear/Function-Frontend2.git
 
-Create a terminal and type these commands
+Create three terminal and type these commands
 
-npm install
+In the first terminal, type: npm i
 
-npm start
+In the second terminal, type: npx hardhat node
 
-This will redirect you to a new tab with the localhost:3000.
+In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
 
-Click the "Connect Wallet" button to connect your Metamask wallet to the app. After successfully connecting your wallet to the app, it will display your address and the balance inside your wallet. 
+Go back to the first terminal and type: npm run dev
+
+Click the "Connect MetaMask Wallet" button to connect your Metamask wallet to the app. After successfully connecting your wallet to the app, it will display your address and the balance inside your wallet, and two buttons: Deposit 1 ETH and Withdraw 1 ETH.
 
 ## Authors
 
